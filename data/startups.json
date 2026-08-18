@@ -1,0 +1,1412 @@
+[
+  {
+    "id": "startup_000",
+    "name": "NovaHealth AI",
+    "sector": "HealthTech",
+    "founded_year": 2018,
+    "revenue_musd": 6.0,
+    "revenue_growth_pct": 65,
+    "total_funding_musd": 15,
+    "valuation_musd": 67.5,
+    "burn_rate_musd": 0.33,
+    "runway_months": 18,
+    "employees": 35,
+    "gross_margin_pct": 62,
+    "customer_count": 40,
+    "founders": [
+      "Priya Shah"
+    ],
+    "investors": [
+      "Sequoia",
+      "Lightspeed"
+    ],
+    "competitors": [
+      "FinPilot",
+      "FleetFlow"
+    ],
+    "partners": [
+      "HealthCorp",
+      "CloudWorks"
+    ],
+    "documents": [
+      {
+        "source": "press_release",
+        "date": "2025-01-10",
+        "text": "NovaHealth AI announced a strategic update in its HealthTech market. Customers praised the product reliability and measurable time savings."
+      },
+      {
+        "source": "customer_review",
+        "date": "2025-03-05",
+        "text": "A customer review of NovaHealth AI said: The company announced expansion into new enterprise markets."
+      },
+      {
+        "source": "founder_interview",
+        "date": "2025-05-12",
+        "text": "In a founder interview, Priya Shah discussed growth, retention and competition. The founder reported strong renewal rates and growing demand."
+      }
+    ]
+  },
+  {
+    "id": "startup_001",
+    "name": "FinPilot",
+    "sector": "FinTech",
+    "founded_year": 2019,
+    "revenue_musd": 4.15,
+    "revenue_growth_pct": 36,
+    "total_funding_musd": 8.6,
+    "valuation_musd": 47.3,
+    "burn_rate_musd": 0.23,
+    "runway_months": 11,
+    "employees": 42,
+    "gross_margin_pct": 53,
+    "customer_count": 75,
+    "founders": [
+      "Arjun Mehta"
+    ],
+    "investors": [
+      "Accel",
+      "Peak XV"
+    ],
+    "competitors": [
+      "AgroVision",
+      "ClimateCore"
+    ],
+    "partners": [
+      "CloudWorks",
+      "EnterpriseHub"
+    ],
+    "documents": [
+      {
+        "source": "press_release",
+        "date": "2025-01-17",
+        "text": "FinPilot announced a strategic update in its FinTech market. Customers liked the product but several reported integration friction."
+      },
+      {
+        "source": "customer_review",
+        "date": "2025-03-10",
+        "text": "A customer review of FinPilot said: The company has strong demand although implementation can be complex."
+      },
+      {
+        "source": "founder_interview",
+        "date": "2025-05-15",
+        "text": "In a founder interview, Arjun Mehta discussed growth, retention and competition. Press coverage was positive while noting competitive pressure."
+      }
+    ]
+  },
+  {
+    "id": "startup_002",
+    "name": "AgroVision",
+    "sector": "ClimateTech",
+    "founded_year": 2020,
+    "revenue_musd": 2.7,
+    "revenue_growth_pct": 10,
+    "total_funding_musd": 4.6,
+    "valuation_musd": 29.9,
+    "burn_rate_musd": 0.18,
+    "runway_months": 7,
+    "employees": 49,
+    "gross_margin_pct": 44,
+    "customer_count": 110,
+    "founders": [
+      "Neha Kapoor"
+    ],
+    "investors": [
+      "Lightspeed",
+      "Blume"
+    ],
+    "competitors": [
+      "CyberShield",
+      "MedAssist"
+    ],
+    "partners": [
+      "EnterpriseHub",
+      "Global Retail"
+    ],
+    "documents": [
+      {
+        "source": "press_release",
+        "date": "2025-01-24",
+        "text": "AgroVision announced a strategic update in its ClimateTech market. Several customers reported reliability problems and delayed support."
+      },
+      {
+        "source": "customer_review",
+        "date": "2025-03-15",
+        "text": "A customer review of AgroVision said: A market review raised concerns about pricing and weak differentiation."
+      },
+      {
+        "source": "founder_interview",
+        "date": "2025-05-18",
+        "text": "In a founder interview, Neha Kapoor discussed growth, retention and competition. The company faces intense competition and uncertain retention."
+      }
+    ]
+  },
+  {
+    "id": "startup_003",
+    "name": "CyberShield",
+    "sector": "SaaS",
+    "founded_year": 2021,
+    "revenue_musd": 6.6,
+    "revenue_growth_pct": 68,
+    "total_funding_musd": 18,
+    "valuation_musd": 81.0,
+    "burn_rate_musd": 0.36,
+    "runway_months": 21,
+    "employees": 56,
+    "gross_margin_pct": 65,
+    "customer_count": 145,
+    "founders": [
+      "Rohan Patel"
+    ],
+    "investors": [
+      "Peak XV",
+      "Matrix Ventures"
+    ],
+    "competitors": [
+      "LegalMind",
+      "CloudLedger"
+    ],
+    "partners": [
+      "Global Retail",
+      "DataLink"
+    ],
+    "documents": [
+      {
+        "source": "press_release",
+        "date": "2025-01-31",
+        "text": "CyberShield announced a strategic update in its SaaS market. Customers praised the product reliability and measurable time savings."
+      },
+      {
+        "source": "customer_review",
+        "date": "2025-03-20",
+        "text": "A customer review of CyberShield said: The company announced expansion into new enterprise markets."
+      },
+      {
+        "source": "founder_interview",
+        "date": "2025-05-21",
+        "text": "In a founder interview, Rohan Patel discussed growth, retention and competition. The founder reported strong renewal rates and growing demand."
+      }
+    ]
+  },
+  {
+    "id": "startup_004",
+    "name": "LegalMind",
+    "sector": "Cybersecurity",
+    "founded_year": 2022,
+    "revenue_musd": 4.6,
+    "revenue_growth_pct": 39,
+    "total_funding_musd": 10.4,
+    "valuation_musd": 57.2,
+    "burn_rate_musd": 0.25,
+    "runway_months": 14,
+    "employees": 63,
+    "gross_margin_pct": 56,
+    "customer_count": 180,
+    "founders": [
+      "Aisha Khan"
+    ],
+    "investors": [
+      "Blume",
+      "Sequoia"
+    ],
+    "competitors": [
+      "EduVerse",
+      "InsureAI"
+    ],
+    "partners": [
+      "DataLink",
+      "Metro Labs"
+    ],
+    "documents": [
+      {
+        "source": "press_release",
+        "date": "2025-02-07",
+        "text": "LegalMind announced a strategic update in its Cybersecurity market. Customers liked the product but several reported integration friction."
+      },
+      {
+        "source": "customer_review",
+        "date": "2025-03-25",
+        "text": "A customer review of LegalMind said: The company has strong demand although implementation can be complex."
+      },
+      {
+        "source": "founder_interview",
+        "date": "2025-05-24",
+        "text": "In a founder interview, Aisha Khan discussed growth, retention and competition. Press coverage was positive while noting competitive pressure."
+      }
+    ]
+  },
+  {
+    "id": "startup_005",
+    "name": "EduVerse",
+    "sector": "RetailTech",
+    "founded_year": 2023,
+    "revenue_musd": 3.0,
+    "revenue_growth_pct": 13,
+    "total_funding_musd": 5.5,
+    "valuation_musd": 35.75,
+    "burn_rate_musd": 0.18,
+    "runway_months": 10,
+    "employees": 70,
+    "gross_margin_pct": 47,
+    "customer_count": 215,
+    "founders": [
+      "Kabir Joshi"
+    ],
+    "investors": [
+      "Matrix Ventures",
+      "Accel"
+    ],
+    "competitors": [
+      "RetailIQ",
+      "FactorySense"
+    ],
+    "partners": [
+      "Metro Labs",
+      "HealthCorp"
+    ],
+    "documents": [
+      {
+        "source": "press_release",
+        "date": "2025-02-14",
+        "text": "EduVerse announced a strategic update in its RetailTech market. Several customers reported reliability problems and delayed support."
+      },
+      {
+        "source": "customer_review",
+        "date": "2025-03-30",
+        "text": "A customer review of EduVerse said: A market review raised concerns about pricing and weak differentiation."
+      },
+      {
+        "source": "founder_interview",
+        "date": "2025-05-27",
+        "text": "In a founder interview, Kabir Joshi discussed growth, retention and competition. The company faces intense competition and uncertain retention."
+      }
+    ]
+  },
+  {
+    "id": "startup_006",
+    "name": "RetailIQ",
+    "sector": "HealthTech",
+    "founded_year": 2018,
+    "revenue_musd": 7.2,
+    "revenue_growth_pct": 71,
+    "total_funding_musd": 21,
+    "valuation_musd": 94.5,
+    "burn_rate_musd": 0.4,
+    "runway_months": 24,
+    "employees": 77,
+    "gross_margin_pct": 68,
+    "customer_count": 250,
+    "founders": [
+      "Maya Desai"
+    ],
+    "investors": [
+      "Sequoia",
+      "Lightspeed"
+    ],
+    "competitors": [
+      "FleetFlow",
+      "TravelMesh"
+    ],
+    "partners": [
+      "HealthCorp",
+      "CloudWorks"
+    ],
+    "documents": [
+      {
+        "source": "press_release",
+        "date": "2025-02-21",
+        "text": "RetailIQ announced a strategic update in its HealthTech market. Customers praised the product reliability and measurable time savings."
+      },
+      {
+        "source": "customer_review",
+        "date": "2025-04-04",
+        "text": "A customer review of RetailIQ said: The company announced expansion into new enterprise markets."
+      },
+      {
+        "source": "founder_interview",
+        "date": "2025-05-30",
+        "text": "In a founder interview, Maya Desai discussed growth, retention and competition. The founder reported strong renewal rates and growing demand."
+      }
+    ]
+  },
+  {
+    "id": "startup_007",
+    "name": "FleetFlow",
+    "sector": "FinTech",
+    "founded_year": 2019,
+    "revenue_musd": 5.05,
+    "revenue_growth_pct": 42,
+    "total_funding_musd": 12.2,
+    "valuation_musd": 67.1,
+    "burn_rate_musd": 0.28,
+    "runway_months": 17,
+    "employees": 84,
+    "gross_margin_pct": 59,
+    "customer_count": 285,
+    "founders": [
+      "Vikram Rao"
+    ],
+    "investors": [
+      "Accel",
+      "Peak XV"
+    ],
+    "competitors": [
+      "ClimateCore",
+      "FoodLens"
+    ],
+    "partners": [
+      "CloudWorks",
+      "EnterpriseHub"
+    ],
+    "documents": [
+      {
+        "source": "press_release",
+        "date": "2025-02-28",
+        "text": "FleetFlow announced a strategic update in its FinTech market. Customers liked the product but several reported integration friction."
+      },
+      {
+        "source": "customer_review",
+        "date": "2025-04-09",
+        "text": "A customer review of FleetFlow said: The company has strong demand although implementation can be complex."
+      },
+      {
+        "source": "founder_interview",
+        "date": "2025-06-02",
+        "text": "In a founder interview, Vikram Rao discussed growth, retention and competition. Press coverage was positive while noting competitive pressure."
+      }
+    ]
+  },
+  {
+    "id": "startup_008",
+    "name": "ClimateCore",
+    "sector": "ClimateTech",
+    "founded_year": 2020,
+    "revenue_musd": 3.3,
+    "revenue_growth_pct": 16,
+    "total_funding_musd": 6.4,
+    "valuation_musd": 41.6,
+    "burn_rate_musd": 0.18,
+    "runway_months": 6,
+    "employees": 91,
+    "gross_margin_pct": 42,
+    "customer_count": 320,
+    "founders": [
+      "Ananya Iyer"
+    ],
+    "investors": [
+      "Lightspeed",
+      "Blume"
+    ],
+    "competitors": [
+      "MedAssist",
+      "BuildWise"
+    ],
+    "partners": [
+      "EnterpriseHub",
+      "Global Retail"
+    ],
+    "documents": [
+      {
+        "source": "press_release",
+        "date": "2025-03-07",
+        "text": "ClimateCore announced a strategic update in its ClimateTech market. Several customers reported reliability problems and delayed support."
+      },
+      {
+        "source": "customer_review",
+        "date": "2025-04-14",
+        "text": "A customer review of ClimateCore said: A market review raised concerns about pricing and weak differentiation."
+      },
+      {
+        "source": "founder_interview",
+        "date": "2025-06-05",
+        "text": "In a founder interview, Ananya Iyer discussed growth, retention and competition. The company faces intense competition and uncertain retention."
+      }
+    ]
+  },
+  {
+    "id": "startup_009",
+    "name": "MedAssist",
+    "sector": "SaaS",
+    "founded_year": 2021,
+    "revenue_musd": 7.8,
+    "revenue_growth_pct": 74,
+    "total_funding_musd": 24,
+    "valuation_musd": 108.0,
+    "burn_rate_musd": 0.43,
+    "runway_months": 27,
+    "employees": 98,
+    "gross_margin_pct": 71,
+    "customer_count": 355,
+    "founders": [
+      "Dev Malhotra"
+    ],
+    "investors": [
+      "Peak XV",
+      "Matrix Ventures"
+    ],
+    "competitors": [
+      "CloudLedger",
+      "EnergyPulse"
+    ],
+    "partners": [
+      "Global Retail",
+      "DataLink"
+    ],
+    "documents": [
+      {
+        "source": "press_release",
+        "date": "2025-03-14",
+        "text": "MedAssist announced a strategic update in its SaaS market. Customers praised the product reliability and measurable time savings."
+      },
+      {
+        "source": "customer_review",
+        "date": "2025-04-19",
+        "text": "A customer review of MedAssist said: The company announced expansion into new enterprise markets."
+      },
+      {
+        "source": "founder_interview",
+        "date": "2025-06-08",
+        "text": "In a founder interview, Dev Malhotra discussed growth, retention and competition. The founder reported strong renewal rates and growing demand."
+      }
+    ]
+  },
+  {
+    "id": "startup_010",
+    "name": "CloudLedger",
+    "sector": "Cybersecurity",
+    "founded_year": 2022,
+    "revenue_musd": 5.5,
+    "revenue_growth_pct": 45,
+    "total_funding_musd": 14.0,
+    "valuation_musd": 77.0,
+    "burn_rate_musd": 0.3,
+    "runway_months": 12,
+    "employees": 105,
+    "gross_margin_pct": 54,
+    "customer_count": 390,
+    "founders": [
+      "Priya Shah"
+    ],
+    "investors": [
+      "Blume",
+      "Sequoia"
+    ],
+    "competitors": [
+      "InsureAI",
+      "SecureStack"
+    ],
+    "partners": [
+      "DataLink",
+      "Metro Labs"
+    ],
+    "documents": [
+      {
+        "source": "press_release",
+        "date": "2025-03-21",
+        "text": "CloudLedger announced a strategic update in its Cybersecurity market. Customers liked the product but several reported integration friction."
+      },
+      {
+        "source": "customer_review",
+        "date": "2025-04-24",
+        "text": "A customer review of CloudLedger said: The company has strong demand although implementation can be complex."
+      },
+      {
+        "source": "founder_interview",
+        "date": "2025-06-11",
+        "text": "In a founder interview, Priya Shah discussed growth, retention and competition. Press coverage was positive while noting competitive pressure."
+      }
+    ]
+  },
+  {
+    "id": "startup_011",
+    "name": "InsureAI",
+    "sector": "RetailTech",
+    "founded_year": 2023,
+    "revenue_musd": 3.6,
+    "revenue_growth_pct": 19,
+    "total_funding_musd": 7.3,
+    "valuation_musd": 47.45,
+    "burn_rate_musd": 0.2,
+    "runway_months": 9,
+    "employees": 112,
+    "gross_margin_pct": 45,
+    "customer_count": 425,
+    "founders": [
+      "Arjun Mehta"
+    ],
+    "investors": [
+      "Matrix Ventures",
+      "Accel"
+    ],
+    "competitors": [
+      "FactorySense",
+      "PropTechX"
+    ],
+    "partners": [
+      "Metro Labs",
+      "HealthCorp"
+    ],
+    "documents": [
+      {
+        "source": "press_release",
+        "date": "2025-03-28",
+        "text": "InsureAI announced a strategic update in its RetailTech market. Several customers reported reliability problems and delayed support."
+      },
+      {
+        "source": "customer_review",
+        "date": "2025-04-29",
+        "text": "A customer review of InsureAI said: A market review raised concerns about pricing and weak differentiation."
+      },
+      {
+        "source": "founder_interview",
+        "date": "2025-06-14",
+        "text": "In a founder interview, Arjun Mehta discussed growth, retention and competition. The company faces intense competition and uncertain retention."
+      }
+    ]
+  },
+  {
+    "id": "startup_012",
+    "name": "FactorySense",
+    "sector": "HealthTech",
+    "founded_year": 2018,
+    "revenue_musd": 8.4,
+    "revenue_growth_pct": 77,
+    "total_funding_musd": 27,
+    "valuation_musd": 121.5,
+    "burn_rate_musd": 0.46,
+    "runway_months": 20,
+    "employees": 119,
+    "gross_margin_pct": 64,
+    "customer_count": 460,
+    "founders": [
+      "Neha Kapoor"
+    ],
+    "investors": [
+      "Sequoia",
+      "Lightspeed"
+    ],
+    "competitors": [
+      "TravelMesh",
+      "TalentGrid"
+    ],
+    "partners": [
+      "HealthCorp",
+      "CloudWorks"
+    ],
+    "documents": [
+      {
+        "source": "press_release",
+        "date": "2025-04-04",
+        "text": "FactorySense announced a strategic update in its HealthTech market. Customers praised the product reliability and measurable time savings."
+      },
+      {
+        "source": "customer_review",
+        "date": "2025-05-04",
+        "text": "A customer review of FactorySense said: The company announced expansion into new enterprise markets."
+      },
+      {
+        "source": "founder_interview",
+        "date": "2025-06-17",
+        "text": "In a founder interview, Neha Kapoor discussed growth, retention and competition. The founder reported strong renewal rates and growing demand."
+      }
+    ]
+  },
+  {
+    "id": "startup_013",
+    "name": "TravelMesh",
+    "sector": "FinTech",
+    "founded_year": 2019,
+    "revenue_musd": 5.95,
+    "revenue_growth_pct": 48,
+    "total_funding_musd": 15.8,
+    "valuation_musd": 86.9,
+    "burn_rate_musd": 0.33,
+    "runway_months": 15,
+    "employees": 126,
+    "gross_margin_pct": 57,
+    "customer_count": 495,
+    "founders": [
+      "Rohan Patel"
+    ],
+    "investors": [
+      "Accel",
+      "Peak XV"
+    ],
+    "competitors": [
+      "FoodLens",
+      "SupplyMind"
+    ],
+    "partners": [
+      "CloudWorks",
+      "EnterpriseHub"
+    ],
+    "documents": [
+      {
+        "source": "press_release",
+        "date": "2025-04-11",
+        "text": "TravelMesh announced a strategic update in its FinTech market. Customers liked the product but several reported integration friction."
+      },
+      {
+        "source": "customer_review",
+        "date": "2025-05-09",
+        "text": "A customer review of TravelMesh said: The company has strong demand although implementation can be complex."
+      },
+      {
+        "source": "founder_interview",
+        "date": "2025-06-20",
+        "text": "In a founder interview, Rohan Patel discussed growth, retention and competition. Press coverage was positive while noting competitive pressure."
+      }
+    ]
+  },
+  {
+    "id": "startup_014",
+    "name": "FoodLens",
+    "sector": "ClimateTech",
+    "founded_year": 2020,
+    "revenue_musd": 3.9,
+    "revenue_growth_pct": 22,
+    "total_funding_musd": 8.2,
+    "valuation_musd": 53.3,
+    "burn_rate_musd": 0.21,
+    "runway_months": 5,
+    "employees": 133,
+    "gross_margin_pct": 48,
+    "customer_count": 530,
+    "founders": [
+      "Aisha Khan"
+    ],
+    "investors": [
+      "Lightspeed",
+      "Blume"
+    ],
+    "competitors": [
+      "BuildWise",
+      "VoiceCare"
+    ],
+    "partners": [
+      "EnterpriseHub",
+      "Global Retail"
+    ],
+    "documents": [
+      {
+        "source": "press_release",
+        "date": "2025-04-18",
+        "text": "FoodLens announced a strategic update in its ClimateTech market. Several customers reported reliability problems and delayed support."
+      },
+      {
+        "source": "customer_review",
+        "date": "2025-05-14",
+        "text": "A customer review of FoodLens said: A market review raised concerns about pricing and weak differentiation."
+      },
+      {
+        "source": "founder_interview",
+        "date": "2025-06-23",
+        "text": "In a founder interview, Aisha Khan discussed growth, retention and competition. The company faces intense competition and uncertain retention."
+      }
+    ]
+  },
+  {
+    "id": "startup_015",
+    "name": "BuildWise",
+    "sector": "SaaS",
+    "founded_year": 2021,
+    "revenue_musd": 9.0,
+    "revenue_growth_pct": 80,
+    "total_funding_musd": 30,
+    "valuation_musd": 135.0,
+    "burn_rate_musd": 0.49,
+    "runway_months": 23,
+    "employees": 140,
+    "gross_margin_pct": 67,
+    "customer_count": 565,
+    "founders": [
+      "Kabir Joshi"
+    ],
+    "investors": [
+      "Peak XV",
+      "Matrix Ventures"
+    ],
+    "competitors": [
+      "EnergyPulse",
+      "QuantumOps"
+    ],
+    "partners": [
+      "Global Retail",
+      "DataLink"
+    ],
+    "documents": [
+      {
+        "source": "press_release",
+        "date": "2025-04-25",
+        "text": "BuildWise announced a strategic update in its SaaS market. Customers praised the product reliability and measurable time savings."
+      },
+      {
+        "source": "customer_review",
+        "date": "2025-05-19",
+        "text": "A customer review of BuildWise said: The company announced expansion into new enterprise markets."
+      },
+      {
+        "source": "founder_interview",
+        "date": "2025-06-26",
+        "text": "In a founder interview, Kabir Joshi discussed growth, retention and competition. The founder reported strong renewal rates and growing demand."
+      }
+    ]
+  },
+  {
+    "id": "startup_016",
+    "name": "EnergyPulse",
+    "sector": "Cybersecurity",
+    "founded_year": 2022,
+    "revenue_musd": 6.4,
+    "revenue_growth_pct": 51,
+    "total_funding_musd": 17.6,
+    "valuation_musd": 96.8,
+    "burn_rate_musd": 0.35,
+    "runway_months": 10,
+    "employees": 147,
+    "gross_margin_pct": 52,
+    "customer_count": 600,
+    "founders": [
+      "Maya Desai"
+    ],
+    "investors": [
+      "Blume",
+      "Sequoia"
+    ],
+    "competitors": [
+      "SecureStack",
+      "MarketMuse AI"
+    ],
+    "partners": [
+      "DataLink",
+      "Metro Labs"
+    ],
+    "documents": [
+      {
+        "source": "press_release",
+        "date": "2025-05-02",
+        "text": "EnergyPulse announced a strategic update in its Cybersecurity market. Customers liked the product but several reported integration friction."
+      },
+      {
+        "source": "customer_review",
+        "date": "2025-05-24",
+        "text": "A customer review of EnergyPulse said: The company has strong demand although implementation can be complex."
+      },
+      {
+        "source": "founder_interview",
+        "date": "2025-06-29",
+        "text": "In a founder interview, Maya Desai discussed growth, retention and competition. Press coverage was positive while noting competitive pressure."
+      }
+    ]
+  },
+  {
+    "id": "startup_017",
+    "name": "SecureStack",
+    "sector": "RetailTech",
+    "founded_year": 2023,
+    "revenue_musd": 4.2,
+    "revenue_growth_pct": 25,
+    "total_funding_musd": 9.1,
+    "valuation_musd": 59.15,
+    "burn_rate_musd": 0.23,
+    "runway_months": 8,
+    "employees": 154,
+    "gross_margin_pct": 43,
+    "customer_count": 635,
+    "founders": [
+      "Vikram Rao"
+    ],
+    "investors": [
+      "Matrix Ventures",
+      "Accel"
+    ],
+    "competitors": [
+      "PropTechX",
+      "AutoRoute"
+    ],
+    "partners": [
+      "Metro Labs",
+      "HealthCorp"
+    ],
+    "documents": [
+      {
+        "source": "press_release",
+        "date": "2025-05-09",
+        "text": "SecureStack announced a strategic update in its RetailTech market. Several customers reported reliability problems and delayed support."
+      },
+      {
+        "source": "customer_review",
+        "date": "2025-05-29",
+        "text": "A customer review of SecureStack said: A market review raised concerns about pricing and weak differentiation."
+      },
+      {
+        "source": "founder_interview",
+        "date": "2025-07-02",
+        "text": "In a founder interview, Vikram Rao discussed growth, retention and competition. The company faces intense competition and uncertain retention."
+      }
+    ]
+  },
+  {
+    "id": "startup_018",
+    "name": "PropTechX",
+    "sector": "HealthTech",
+    "founded_year": 2018,
+    "revenue_musd": 9.6,
+    "revenue_growth_pct": 83,
+    "total_funding_musd": 33,
+    "valuation_musd": 148.5,
+    "burn_rate_musd": 0.53,
+    "runway_months": 26,
+    "employees": 161,
+    "gross_margin_pct": 70,
+    "customer_count": 670,
+    "founders": [
+      "Ananya Iyer"
+    ],
+    "investors": [
+      "Sequoia",
+      "Lightspeed"
+    ],
+    "competitors": [
+      "TalentGrid",
+      "GreenCart"
+    ],
+    "partners": [
+      "HealthCorp",
+      "CloudWorks"
+    ],
+    "documents": [
+      {
+        "source": "press_release",
+        "date": "2025-05-16",
+        "text": "PropTechX announced a strategic update in its HealthTech market. Customers praised the product reliability and measurable time savings."
+      },
+      {
+        "source": "customer_review",
+        "date": "2025-06-03",
+        "text": "A customer review of PropTechX said: The company announced expansion into new enterprise markets."
+      },
+      {
+        "source": "founder_interview",
+        "date": "2025-07-05",
+        "text": "In a founder interview, Ananya Iyer discussed growth, retention and competition. The founder reported strong renewal rates and growing demand."
+      }
+    ]
+  },
+  {
+    "id": "startup_019",
+    "name": "TalentGrid",
+    "sector": "FinTech",
+    "founded_year": 2019,
+    "revenue_musd": 6.85,
+    "revenue_growth_pct": 54,
+    "total_funding_musd": 19.4,
+    "valuation_musd": 106.7,
+    "burn_rate_musd": 0.38,
+    "runway_months": 13,
+    "employees": 168,
+    "gross_margin_pct": 55,
+    "customer_count": 705,
+    "founders": [
+      "Dev Malhotra"
+    ],
+    "investors": [
+      "Accel",
+      "Peak XV"
+    ],
+    "competitors": [
+      "SupplyMind",
+      "DataForge"
+    ],
+    "partners": [
+      "CloudWorks",
+      "EnterpriseHub"
+    ],
+    "documents": [
+      {
+        "source": "press_release",
+        "date": "2025-05-23",
+        "text": "TalentGrid announced a strategic update in its FinTech market. Customers liked the product but several reported integration friction."
+      },
+      {
+        "source": "customer_review",
+        "date": "2025-06-08",
+        "text": "A customer review of TalentGrid said: The company has strong demand although implementation can be complex."
+      },
+      {
+        "source": "founder_interview",
+        "date": "2025-07-08",
+        "text": "In a founder interview, Dev Malhotra discussed growth, retention and competition. Press coverage was positive while noting competitive pressure."
+      }
+    ]
+  },
+  {
+    "id": "startup_020",
+    "name": "SupplyMind",
+    "sector": "ClimateTech",
+    "founded_year": 2020,
+    "revenue_musd": 4.5,
+    "revenue_growth_pct": 10,
+    "total_funding_musd": 10.0,
+    "valuation_musd": 65.0,
+    "burn_rate_musd": 0.25,
+    "runway_months": 11,
+    "employees": 175,
+    "gross_margin_pct": 46,
+    "customer_count": 740,
+    "founders": [
+      "Priya Shah"
+    ],
+    "investors": [
+      "Lightspeed",
+      "Blume"
+    ],
+    "competitors": [
+      "VoiceCare",
+      "CareBridge"
+    ],
+    "partners": [
+      "EnterpriseHub",
+      "Global Retail"
+    ],
+    "documents": [
+      {
+        "source": "press_release",
+        "date": "2025-05-30",
+        "text": "SupplyMind announced a strategic update in its ClimateTech market. Several customers reported reliability problems and delayed support."
+      },
+      {
+        "source": "customer_review",
+        "date": "2025-06-13",
+        "text": "A customer review of SupplyMind said: A market review raised concerns about pricing and weak differentiation."
+      },
+      {
+        "source": "founder_interview",
+        "date": "2025-07-11",
+        "text": "In a founder interview, Priya Shah discussed growth, retention and competition. The company faces intense competition and uncertain retention."
+      }
+    ]
+  },
+  {
+    "id": "startup_021",
+    "name": "VoiceCare",
+    "sector": "SaaS",
+    "founded_year": 2021,
+    "revenue_musd": 10.2,
+    "revenue_growth_pct": 86,
+    "total_funding_musd": 36,
+    "valuation_musd": 162.0,
+    "burn_rate_musd": 0.56,
+    "runway_months": 19,
+    "employees": 182,
+    "gross_margin_pct": 63,
+    "customer_count": 775,
+    "founders": [
+      "Arjun Mehta"
+    ],
+    "investors": [
+      "Peak XV",
+      "Matrix Ventures"
+    ],
+    "competitors": [
+      "QuantumOps",
+      "PayStream"
+    ],
+    "partners": [
+      "Global Retail",
+      "DataLink"
+    ],
+    "documents": [
+      {
+        "source": "press_release",
+        "date": "2025-06-06",
+        "text": "VoiceCare announced a strategic update in its SaaS market. Customers praised the product reliability and measurable time savings."
+      },
+      {
+        "source": "customer_review",
+        "date": "2025-06-18",
+        "text": "A customer review of VoiceCare said: The company announced expansion into new enterprise markets."
+      },
+      {
+        "source": "founder_interview",
+        "date": "2025-07-14",
+        "text": "In a founder interview, Arjun Mehta discussed growth, retention and competition. The founder reported strong renewal rates and growing demand."
+      }
+    ]
+  },
+  {
+    "id": "startup_022",
+    "name": "QuantumOps",
+    "sector": "Cybersecurity",
+    "founded_year": 2022,
+    "revenue_musd": 7.3,
+    "revenue_growth_pct": 37,
+    "total_funding_musd": 21.2,
+    "valuation_musd": 116.6,
+    "burn_rate_musd": 0.4,
+    "runway_months": 16,
+    "employees": 189,
+    "gross_margin_pct": 58,
+    "customer_count": 810,
+    "founders": [
+      "Neha Kapoor"
+    ],
+    "investors": [
+      "Blume",
+      "Sequoia"
+    ],
+    "competitors": [
+      "MarketMuse AI",
+      "VisionWorks"
+    ],
+    "partners": [
+      "DataLink",
+      "Metro Labs"
+    ],
+    "documents": [
+      {
+        "source": "press_release",
+        "date": "2025-06-13",
+        "text": "QuantumOps announced a strategic update in its Cybersecurity market. Customers liked the product but several reported integration friction."
+      },
+      {
+        "source": "customer_review",
+        "date": "2025-06-23",
+        "text": "A customer review of QuantumOps said: The company has strong demand although implementation can be complex."
+      },
+      {
+        "source": "founder_interview",
+        "date": "2025-07-17",
+        "text": "In a founder interview, Neha Kapoor discussed growth, retention and competition. Press coverage was positive while noting competitive pressure."
+      }
+    ]
+  },
+  {
+    "id": "startup_023",
+    "name": "MarketMuse AI",
+    "sector": "RetailTech",
+    "founded_year": 2023,
+    "revenue_musd": 4.8,
+    "revenue_growth_pct": 13,
+    "total_funding_musd": 10.9,
+    "valuation_musd": 70.85,
+    "burn_rate_musd": 0.26,
+    "runway_months": 7,
+    "employees": 196,
+    "gross_margin_pct": 49,
+    "customer_count": 845,
+    "founders": [
+      "Rohan Patel"
+    ],
+    "investors": [
+      "Matrix Ventures",
+      "Accel"
+    ],
+    "competitors": [
+      "AutoRoute",
+      "NovaHealth AI"
+    ],
+    "partners": [
+      "Metro Labs",
+      "HealthCorp"
+    ],
+    "documents": [
+      {
+        "source": "press_release",
+        "date": "2025-06-20",
+        "text": "MarketMuse AI announced a strategic update in its RetailTech market. Several customers reported reliability problems and delayed support."
+      },
+      {
+        "source": "customer_review",
+        "date": "2025-06-28",
+        "text": "A customer review of MarketMuse AI said: A market review raised concerns about pricing and weak differentiation."
+      },
+      {
+        "source": "founder_interview",
+        "date": "2025-07-20",
+        "text": "In a founder interview, Rohan Patel discussed growth, retention and competition. The company faces intense competition and uncertain retention."
+      }
+    ]
+  },
+  {
+    "id": "startup_024",
+    "name": "AutoRoute",
+    "sector": "HealthTech",
+    "founded_year": 2018,
+    "revenue_musd": 10.8,
+    "revenue_growth_pct": 89,
+    "total_funding_musd": 39,
+    "valuation_musd": 175.5,
+    "burn_rate_musd": 0.59,
+    "runway_months": 22,
+    "employees": 203,
+    "gross_margin_pct": 66,
+    "customer_count": 880,
+    "founders": [
+      "Aisha Khan"
+    ],
+    "investors": [
+      "Sequoia",
+      "Lightspeed"
+    ],
+    "competitors": [
+      "GreenCart",
+      "FinPilot"
+    ],
+    "partners": [
+      "HealthCorp",
+      "CloudWorks"
+    ],
+    "documents": [
+      {
+        "source": "press_release",
+        "date": "2025-06-27",
+        "text": "AutoRoute announced a strategic update in its HealthTech market. Customers praised the product reliability and measurable time savings."
+      },
+      {
+        "source": "customer_review",
+        "date": "2025-07-03",
+        "text": "A customer review of AutoRoute said: The company announced expansion into new enterprise markets."
+      },
+      {
+        "source": "founder_interview",
+        "date": "2025-07-23",
+        "text": "In a founder interview, Aisha Khan discussed growth, retention and competition. The founder reported strong renewal rates and growing demand."
+      }
+    ]
+  },
+  {
+    "id": "startup_025",
+    "name": "GreenCart",
+    "sector": "FinTech",
+    "founded_year": 2019,
+    "revenue_musd": 7.75,
+    "revenue_growth_pct": 40,
+    "total_funding_musd": 23.0,
+    "valuation_musd": 126.5,
+    "burn_rate_musd": 0.43,
+    "runway_months": 11,
+    "employees": 210,
+    "gross_margin_pct": 53,
+    "customer_count": 915,
+    "founders": [
+      "Kabir Joshi"
+    ],
+    "investors": [
+      "Accel",
+      "Peak XV"
+    ],
+    "competitors": [
+      "DataForge",
+      "AgroVision"
+    ],
+    "partners": [
+      "CloudWorks",
+      "EnterpriseHub"
+    ],
+    "documents": [
+      {
+        "source": "press_release",
+        "date": "2025-07-04",
+        "text": "GreenCart announced a strategic update in its FinTech market. Customers liked the product but several reported integration friction."
+      },
+      {
+        "source": "customer_review",
+        "date": "2025-07-08",
+        "text": "A customer review of GreenCart said: The company has strong demand although implementation can be complex."
+      },
+      {
+        "source": "founder_interview",
+        "date": "2025-07-26",
+        "text": "In a founder interview, Kabir Joshi discussed growth, retention and competition. Press coverage was positive while noting competitive pressure."
+      }
+    ]
+  },
+  {
+    "id": "startup_026",
+    "name": "DataForge",
+    "sector": "ClimateTech",
+    "founded_year": 2020,
+    "revenue_musd": 5.1,
+    "revenue_growth_pct": 16,
+    "total_funding_musd": 11.8,
+    "valuation_musd": 76.7,
+    "burn_rate_musd": 0.28,
+    "runway_months": 10,
+    "employees": 217,
+    "gross_margin_pct": 44,
+    "customer_count": 950,
+    "founders": [
+      "Maya Desai"
+    ],
+    "investors": [
+      "Lightspeed",
+      "Blume"
+    ],
+    "competitors": [
+      "CareBridge",
+      "CyberShield"
+    ],
+    "partners": [
+      "EnterpriseHub",
+      "Global Retail"
+    ],
+    "documents": [
+      {
+        "source": "press_release",
+        "date": "2025-07-11",
+        "text": "DataForge announced a strategic update in its ClimateTech market. Several customers reported reliability problems and delayed support."
+      },
+      {
+        "source": "customer_review",
+        "date": "2025-07-13",
+        "text": "A customer review of DataForge said: A market review raised concerns about pricing and weak differentiation."
+      },
+      {
+        "source": "founder_interview",
+        "date": "2025-07-29",
+        "text": "In a founder interview, Maya Desai discussed growth, retention and competition. The company faces intense competition and uncertain retention."
+      }
+    ]
+  },
+  {
+    "id": "startup_027",
+    "name": "CareBridge",
+    "sector": "SaaS",
+    "founded_year": 2021,
+    "revenue_musd": 11.4,
+    "revenue_growth_pct": 67,
+    "total_funding_musd": 42,
+    "valuation_musd": 189.0,
+    "burn_rate_musd": 0.63,
+    "runway_months": 25,
+    "employees": 224,
+    "gross_margin_pct": 69,
+    "customer_count": 985,
+    "founders": [
+      "Vikram Rao"
+    ],
+    "investors": [
+      "Peak XV",
+      "Matrix Ventures"
+    ],
+    "competitors": [
+      "PayStream",
+      "LegalMind"
+    ],
+    "partners": [
+      "Global Retail",
+      "DataLink"
+    ],
+    "documents": [
+      {
+        "source": "press_release",
+        "date": "2025-07-18",
+        "text": "CareBridge announced a strategic update in its SaaS market. Customers praised the product reliability and measurable time savings."
+      },
+      {
+        "source": "customer_review",
+        "date": "2025-07-18",
+        "text": "A customer review of CareBridge said: The company announced expansion into new enterprise markets."
+      },
+      {
+        "source": "founder_interview",
+        "date": "2025-08-01",
+        "text": "In a founder interview, Vikram Rao discussed growth, retention and competition. The founder reported strong renewal rates and growing demand."
+      }
+    ]
+  },
+  {
+    "id": "startup_028",
+    "name": "PayStream",
+    "sector": "Cybersecurity",
+    "founded_year": 2022,
+    "revenue_musd": 8.2,
+    "revenue_growth_pct": 43,
+    "total_funding_musd": 24.8,
+    "valuation_musd": 136.4,
+    "burn_rate_musd": 0.45,
+    "runway_months": 14,
+    "employees": 231,
+    "gross_margin_pct": 56,
+    "customer_count": 1020,
+    "founders": [
+      "Ananya Iyer"
+    ],
+    "investors": [
+      "Blume",
+      "Sequoia"
+    ],
+    "competitors": [
+      "VisionWorks",
+      "EduVerse"
+    ],
+    "partners": [
+      "DataLink",
+      "Metro Labs"
+    ],
+    "documents": [
+      {
+        "source": "press_release",
+        "date": "2025-07-25",
+        "text": "PayStream announced a strategic update in its Cybersecurity market. Customers liked the product but several reported integration friction."
+      },
+      {
+        "source": "customer_review",
+        "date": "2025-07-23",
+        "text": "A customer review of PayStream said: The company has strong demand although implementation can be complex."
+      },
+      {
+        "source": "founder_interview",
+        "date": "2025-08-04",
+        "text": "In a founder interview, Ananya Iyer discussed growth, retention and competition. Press coverage was positive while noting competitive pressure."
+      }
+    ]
+  },
+  {
+    "id": "startup_029",
+    "name": "VisionWorks",
+    "sector": "RetailTech",
+    "founded_year": 2023,
+    "revenue_musd": 5.4,
+    "revenue_growth_pct": 19,
+    "total_funding_musd": 12.7,
+    "valuation_musd": 82.55,
+    "burn_rate_musd": 0.3,
+    "runway_months": 6,
+    "employees": 238,
+    "gross_margin_pct": 47,
+    "customer_count": 1055,
+    "founders": [
+      "Dev Malhotra"
+    ],
+    "investors": [
+      "Matrix Ventures",
+      "Accel"
+    ],
+    "competitors": [
+      "NovaHealth AI",
+      "RetailIQ"
+    ],
+    "partners": [
+      "Metro Labs",
+      "HealthCorp"
+    ],
+    "documents": [
+      {
+        "source": "press_release",
+        "date": "2025-08-01",
+        "text": "VisionWorks announced a strategic update in its RetailTech market. Several customers reported reliability problems and delayed support."
+      },
+      {
+        "source": "customer_review",
+        "date": "2025-07-28",
+        "text": "A customer review of VisionWorks said: A market review raised concerns about pricing and weak differentiation."
+      },
+      {
+        "source": "founder_interview",
+        "date": "2025-08-07",
+        "text": "In a founder interview, Dev Malhotra discussed growth, retention and competition. The company faces intense competition and uncertain retention."
+      }
+    ]
+  }
+]

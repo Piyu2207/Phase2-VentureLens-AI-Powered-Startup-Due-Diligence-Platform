@@ -1,0 +1,632 @@
+[
+  {
+    "chunk_id": "startup_000_0_0",
+    "startup": "NovaHealth AI",
+    "source": "press_release",
+    "date": "2025-01-10",
+    "text": "NovaHealth AI announced a strategic update in its HealthTech market. Customers praised the product reliability and measurable time savings."
+  },
+  {
+    "chunk_id": "startup_000_1_0",
+    "startup": "NovaHealth AI",
+    "source": "customer_review",
+    "date": "2025-03-05",
+    "text": "A customer review of NovaHealth AI said: The company announced expansion into new enterprise markets."
+  },
+  {
+    "chunk_id": "startup_000_2_0",
+    "startup": "NovaHealth AI",
+    "source": "founder_interview",
+    "date": "2025-05-12",
+    "text": "In a founder interview, Priya Shah discussed growth, retention and competition. The founder reported strong renewal rates and growing demand."
+  },
+  {
+    "chunk_id": "startup_001_0_0",
+    "startup": "FinPilot",
+    "source": "press_release",
+    "date": "2025-01-17",
+    "text": "FinPilot announced a strategic update in its FinTech market. Customers liked the product but several reported integration friction."
+  },
+  {
+    "chunk_id": "startup_001_1_0",
+    "startup": "FinPilot",
+    "source": "customer_review",
+    "date": "2025-03-10",
+    "text": "A customer review of FinPilot said: The company has strong demand although implementation can be complex."
+  },
+  {
+    "chunk_id": "startup_001_2_0",
+    "startup": "FinPilot",
+    "source": "founder_interview",
+    "date": "2025-05-15",
+    "text": "In a founder interview, Arjun Mehta discussed growth, retention and competition. Press coverage was positive while noting competitive pressure."
+  },
+  {
+    "chunk_id": "startup_002_0_0",
+    "startup": "AgroVision",
+    "source": "press_release",
+    "date": "2025-01-24",
+    "text": "AgroVision announced a strategic update in its ClimateTech market. Several customers reported reliability problems and delayed support."
+  },
+  {
+    "chunk_id": "startup_002_1_0",
+    "startup": "AgroVision",
+    "source": "customer_review",
+    "date": "2025-03-15",
+    "text": "A customer review of AgroVision said: A market review raised concerns about pricing and weak differentiation."
+  },
+  {
+    "chunk_id": "startup_002_2_0",
+    "startup": "AgroVision",
+    "source": "founder_interview",
+    "date": "2025-05-18",
+    "text": "In a founder interview, Neha Kapoor discussed growth, retention and competition. The company faces intense competition and uncertain retention."
+  },
+  {
+    "chunk_id": "startup_003_0_0",
+    "startup": "CyberShield",
+    "source": "press_release",
+    "date": "2025-01-31",
+    "text": "CyberShield announced a strategic update in its SaaS market. Customers praised the product reliability and measurable time savings."
+  },
+  {
+    "chunk_id": "startup_003_1_0",
+    "startup": "CyberShield",
+    "source": "customer_review",
+    "date": "2025-03-20",
+    "text": "A customer review of CyberShield said: The company announced expansion into new enterprise markets."
+  },
+  {
+    "chunk_id": "startup_003_2_0",
+    "startup": "CyberShield",
+    "source": "founder_interview",
+    "date": "2025-05-21",
+    "text": "In a founder interview, Rohan Patel discussed growth, retention and competition. The founder reported strong renewal rates and growing demand."
+  },
+  {
+    "chunk_id": "startup_004_0_0",
+    "startup": "LegalMind",
+    "source": "press_release",
+    "date": "2025-02-07",
+    "text": "LegalMind announced a strategic update in its Cybersecurity market. Customers liked the product but several reported integration friction."
+  },
+  {
+    "chunk_id": "startup_004_1_0",
+    "startup": "LegalMind",
+    "source": "customer_review",
+    "date": "2025-03-25",
+    "text": "A customer review of LegalMind said: The company has strong demand although implementation can be complex."
+  },
+  {
+    "chunk_id": "startup_004_2_0",
+    "startup": "LegalMind",
+    "source": "founder_interview",
+    "date": "2025-05-24",
+    "text": "In a founder interview, Aisha Khan discussed growth, retention and competition. Press coverage was positive while noting competitive pressure."
+  },
+  {
+    "chunk_id": "startup_005_0_0",
+    "startup": "EduVerse",
+    "source": "press_release",
+    "date": "2025-02-14",
+    "text": "EduVerse announced a strategic update in its RetailTech market. Several customers reported reliability problems and delayed support."
+  },
+  {
+    "chunk_id": "startup_005_1_0",
+    "startup": "EduVerse",
+    "source": "customer_review",
+    "date": "2025-03-30",
+    "text": "A customer review of EduVerse said: A market review raised concerns about pricing and weak differentiation."
+  },
+  {
+    "chunk_id": "startup_005_2_0",
+    "startup": "EduVerse",
+    "source": "founder_interview",
+    "date": "2025-05-27",
+    "text": "In a founder interview, Kabir Joshi discussed growth, retention and competition. The company faces intense competition and uncertain retention."
+  },
+  {
+    "chunk_id": "startup_006_0_0",
+    "startup": "RetailIQ",
+    "source": "press_release",
+    "date": "2025-02-21",
+    "text": "RetailIQ announced a strategic update in its HealthTech market. Customers praised the product reliability and measurable time savings."
+  },
+  {
+    "chunk_id": "startup_006_1_0",
+    "startup": "RetailIQ",
+    "source": "customer_review",
+    "date": "2025-04-04",
+    "text": "A customer review of RetailIQ said: The company announced expansion into new enterprise markets."
+  },
+  {
+    "chunk_id": "startup_006_2_0",
+    "startup": "RetailIQ",
+    "source": "founder_interview",
+    "date": "2025-05-30",
+    "text": "In a founder interview, Maya Desai discussed growth, retention and competition. The founder reported strong renewal rates and growing demand."
+  },
+  {
+    "chunk_id": "startup_007_0_0",
+    "startup": "FleetFlow",
+    "source": "press_release",
+    "date": "2025-02-28",
+    "text": "FleetFlow announced a strategic update in its FinTech market. Customers liked the product but several reported integration friction."
+  },
+  {
+    "chunk_id": "startup_007_1_0",
+    "startup": "FleetFlow",
+    "source": "customer_review",
+    "date": "2025-04-09",
+    "text": "A customer review of FleetFlow said: The company has strong demand although implementation can be complex."
+  },
+  {
+    "chunk_id": "startup_007_2_0",
+    "startup": "FleetFlow",
+    "source": "founder_interview",
+    "date": "2025-06-02",
+    "text": "In a founder interview, Vikram Rao discussed growth, retention and competition. Press coverage was positive while noting competitive pressure."
+  },
+  {
+    "chunk_id": "startup_008_0_0",
+    "startup": "ClimateCore",
+    "source": "press_release",
+    "date": "2025-03-07",
+    "text": "ClimateCore announced a strategic update in its ClimateTech market. Several customers reported reliability problems and delayed support."
+  },
+  {
+    "chunk_id": "startup_008_1_0",
+    "startup": "ClimateCore",
+    "source": "customer_review",
+    "date": "2025-04-14",
+    "text": "A customer review of ClimateCore said: A market review raised concerns about pricing and weak differentiation."
+  },
+  {
+    "chunk_id": "startup_008_2_0",
+    "startup": "ClimateCore",
+    "source": "founder_interview",
+    "date": "2025-06-05",
+    "text": "In a founder interview, Ananya Iyer discussed growth, retention and competition. The company faces intense competition and uncertain retention."
+  },
+  {
+    "chunk_id": "startup_009_0_0",
+    "startup": "MedAssist",
+    "source": "press_release",
+    "date": "2025-03-14",
+    "text": "MedAssist announced a strategic update in its SaaS market. Customers praised the product reliability and measurable time savings."
+  },
+  {
+    "chunk_id": "startup_009_1_0",
+    "startup": "MedAssist",
+    "source": "customer_review",
+    "date": "2025-04-19",
+    "text": "A customer review of MedAssist said: The company announced expansion into new enterprise markets."
+  },
+  {
+    "chunk_id": "startup_009_2_0",
+    "startup": "MedAssist",
+    "source": "founder_interview",
+    "date": "2025-06-08",
+    "text": "In a founder interview, Dev Malhotra discussed growth, retention and competition. The founder reported strong renewal rates and growing demand."
+  },
+  {
+    "chunk_id": "startup_010_0_0",
+    "startup": "CloudLedger",
+    "source": "press_release",
+    "date": "2025-03-21",
+    "text": "CloudLedger announced a strategic update in its Cybersecurity market. Customers liked the product but several reported integration friction."
+  },
+  {
+    "chunk_id": "startup_010_1_0",
+    "startup": "CloudLedger",
+    "source": "customer_review",
+    "date": "2025-04-24",
+    "text": "A customer review of CloudLedger said: The company has strong demand although implementation can be complex."
+  },
+  {
+    "chunk_id": "startup_010_2_0",
+    "startup": "CloudLedger",
+    "source": "founder_interview",
+    "date": "2025-06-11",
+    "text": "In a founder interview, Priya Shah discussed growth, retention and competition. Press coverage was positive while noting competitive pressure."
+  },
+  {
+    "chunk_id": "startup_011_0_0",
+    "startup": "InsureAI",
+    "source": "press_release",
+    "date": "2025-03-28",
+    "text": "InsureAI announced a strategic update in its RetailTech market. Several customers reported reliability problems and delayed support."
+  },
+  {
+    "chunk_id": "startup_011_1_0",
+    "startup": "InsureAI",
+    "source": "customer_review",
+    "date": "2025-04-29",
+    "text": "A customer review of InsureAI said: A market review raised concerns about pricing and weak differentiation."
+  },
+  {
+    "chunk_id": "startup_011_2_0",
+    "startup": "InsureAI",
+    "source": "founder_interview",
+    "date": "2025-06-14",
+    "text": "In a founder interview, Arjun Mehta discussed growth, retention and competition. The company faces intense competition and uncertain retention."
+  },
+  {
+    "chunk_id": "startup_012_0_0",
+    "startup": "FactorySense",
+    "source": "press_release",
+    "date": "2025-04-04",
+    "text": "FactorySense announced a strategic update in its HealthTech market. Customers praised the product reliability and measurable time savings."
+  },
+  {
+    "chunk_id": "startup_012_1_0",
+    "startup": "FactorySense",
+    "source": "customer_review",
+    "date": "2025-05-04",
+    "text": "A customer review of FactorySense said: The company announced expansion into new enterprise markets."
+  },
+  {
+    "chunk_id": "startup_012_2_0",
+    "startup": "FactorySense",
+    "source": "founder_interview",
+    "date": "2025-06-17",
+    "text": "In a founder interview, Neha Kapoor discussed growth, retention and competition. The founder reported strong renewal rates and growing demand."
+  },
+  {
+    "chunk_id": "startup_013_0_0",
+    "startup": "TravelMesh",
+    "source": "press_release",
+    "date": "2025-04-11",
+    "text": "TravelMesh announced a strategic update in its FinTech market. Customers liked the product but several reported integration friction."
+  },
+  {
+    "chunk_id": "startup_013_1_0",
+    "startup": "TravelMesh",
+    "source": "customer_review",
+    "date": "2025-05-09",
+    "text": "A customer review of TravelMesh said: The company has strong demand although implementation can be complex."
+  },
+  {
+    "chunk_id": "startup_013_2_0",
+    "startup": "TravelMesh",
+    "source": "founder_interview",
+    "date": "2025-06-20",
+    "text": "In a founder interview, Rohan Patel discussed growth, retention and competition. Press coverage was positive while noting competitive pressure."
+  },
+  {
+    "chunk_id": "startup_014_0_0",
+    "startup": "FoodLens",
+    "source": "press_release",
+    "date": "2025-04-18",
+    "text": "FoodLens announced a strategic update in its ClimateTech market. Several customers reported reliability problems and delayed support."
+  },
+  {
+    "chunk_id": "startup_014_1_0",
+    "startup": "FoodLens",
+    "source": "customer_review",
+    "date": "2025-05-14",
+    "text": "A customer review of FoodLens said: A market review raised concerns about pricing and weak differentiation."
+  },
+  {
+    "chunk_id": "startup_014_2_0",
+    "startup": "FoodLens",
+    "source": "founder_interview",
+    "date": "2025-06-23",
+    "text": "In a founder interview, Aisha Khan discussed growth, retention and competition. The company faces intense competition and uncertain retention."
+  },
+  {
+    "chunk_id": "startup_015_0_0",
+    "startup": "BuildWise",
+    "source": "press_release",
+    "date": "2025-04-25",
+    "text": "BuildWise announced a strategic update in its SaaS market. Customers praised the product reliability and measurable time savings."
+  },
+  {
+    "chunk_id": "startup_015_1_0",
+    "startup": "BuildWise",
+    "source": "customer_review",
+    "date": "2025-05-19",
+    "text": "A customer review of BuildWise said: The company announced expansion into new enterprise markets."
+  },
+  {
+    "chunk_id": "startup_015_2_0",
+    "startup": "BuildWise",
+    "source": "founder_interview",
+    "date": "2025-06-26",
+    "text": "In a founder interview, Kabir Joshi discussed growth, retention and competition. The founder reported strong renewal rates and growing demand."
+  },
+  {
+    "chunk_id": "startup_016_0_0",
+    "startup": "EnergyPulse",
+    "source": "press_release",
+    "date": "2025-05-02",
+    "text": "EnergyPulse announced a strategic update in its Cybersecurity market. Customers liked the product but several reported integration friction."
+  },
+  {
+    "chunk_id": "startup_016_1_0",
+    "startup": "EnergyPulse",
+    "source": "customer_review",
+    "date": "2025-05-24",
+    "text": "A customer review of EnergyPulse said: The company has strong demand although implementation can be complex."
+  },
+  {
+    "chunk_id": "startup_016_2_0",
+    "startup": "EnergyPulse",
+    "source": "founder_interview",
+    "date": "2025-06-29",
+    "text": "In a founder interview, Maya Desai discussed growth, retention and competition. Press coverage was positive while noting competitive pressure."
+  },
+  {
+    "chunk_id": "startup_017_0_0",
+    "startup": "SecureStack",
+    "source": "press_release",
+    "date": "2025-05-09",
+    "text": "SecureStack announced a strategic update in its RetailTech market. Several customers reported reliability problems and delayed support."
+  },
+  {
+    "chunk_id": "startup_017_1_0",
+    "startup": "SecureStack",
+    "source": "customer_review",
+    "date": "2025-05-29",
+    "text": "A customer review of SecureStack said: A market review raised concerns about pricing and weak differentiation."
+  },
+  {
+    "chunk_id": "startup_017_2_0",
+    "startup": "SecureStack",
+    "source": "founder_interview",
+    "date": "2025-07-02",
+    "text": "In a founder interview, Vikram Rao discussed growth, retention and competition. The company faces intense competition and uncertain retention."
+  },
+  {
+    "chunk_id": "startup_018_0_0",
+    "startup": "PropTechX",
+    "source": "press_release",
+    "date": "2025-05-16",
+    "text": "PropTechX announced a strategic update in its HealthTech market. Customers praised the product reliability and measurable time savings."
+  },
+  {
+    "chunk_id": "startup_018_1_0",
+    "startup": "PropTechX",
+    "source": "customer_review",
+    "date": "2025-06-03",
+    "text": "A customer review of PropTechX said: The company announced expansion into new enterprise markets."
+  },
+  {
+    "chunk_id": "startup_018_2_0",
+    "startup": "PropTechX",
+    "source": "founder_interview",
+    "date": "2025-07-05",
+    "text": "In a founder interview, Ananya Iyer discussed growth, retention and competition. The founder reported strong renewal rates and growing demand."
+  },
+  {
+    "chunk_id": "startup_019_0_0",
+    "startup": "TalentGrid",
+    "source": "press_release",
+    "date": "2025-05-23",
+    "text": "TalentGrid announced a strategic update in its FinTech market. Customers liked the product but several reported integration friction."
+  },
+  {
+    "chunk_id": "startup_019_1_0",
+    "startup": "TalentGrid",
+    "source": "customer_review",
+    "date": "2025-06-08",
+    "text": "A customer review of TalentGrid said: The company has strong demand although implementation can be complex."
+  },
+  {
+    "chunk_id": "startup_019_2_0",
+    "startup": "TalentGrid",
+    "source": "founder_interview",
+    "date": "2025-07-08",
+    "text": "In a founder interview, Dev Malhotra discussed growth, retention and competition. Press coverage was positive while noting competitive pressure."
+  },
+  {
+    "chunk_id": "startup_020_0_0",
+    "startup": "SupplyMind",
+    "source": "press_release",
+    "date": "2025-05-30",
+    "text": "SupplyMind announced a strategic update in its ClimateTech market. Several customers reported reliability problems and delayed support."
+  },
+  {
+    "chunk_id": "startup_020_1_0",
+    "startup": "SupplyMind",
+    "source": "customer_review",
+    "date": "2025-06-13",
+    "text": "A customer review of SupplyMind said: A market review raised concerns about pricing and weak differentiation."
+  },
+  {
+    "chunk_id": "startup_020_2_0",
+    "startup": "SupplyMind",
+    "source": "founder_interview",
+    "date": "2025-07-11",
+    "text": "In a founder interview, Priya Shah discussed growth, retention and competition. The company faces intense competition and uncertain retention."
+  },
+  {
+    "chunk_id": "startup_021_0_0",
+    "startup": "VoiceCare",
+    "source": "press_release",
+    "date": "2025-06-06",
+    "text": "VoiceCare announced a strategic update in its SaaS market. Customers praised the product reliability and measurable time savings."
+  },
+  {
+    "chunk_id": "startup_021_1_0",
+    "startup": "VoiceCare",
+    "source": "customer_review",
+    "date": "2025-06-18",
+    "text": "A customer review of VoiceCare said: The company announced expansion into new enterprise markets."
+  },
+  {
+    "chunk_id": "startup_021_2_0",
+    "startup": "VoiceCare",
+    "source": "founder_interview",
+    "date": "2025-07-14",
+    "text": "In a founder interview, Arjun Mehta discussed growth, retention and competition. The founder reported strong renewal rates and growing demand."
+  },
+  {
+    "chunk_id": "startup_022_0_0",
+    "startup": "QuantumOps",
+    "source": "press_release",
+    "date": "2025-06-13",
+    "text": "QuantumOps announced a strategic update in its Cybersecurity market. Customers liked the product but several reported integration friction."
+  },
+  {
+    "chunk_id": "startup_022_1_0",
+    "startup": "QuantumOps",
+    "source": "customer_review",
+    "date": "2025-06-23",
+    "text": "A customer review of QuantumOps said: The company has strong demand although implementation can be complex."
+  },
+  {
+    "chunk_id": "startup_022_2_0",
+    "startup": "QuantumOps",
+    "source": "founder_interview",
+    "date": "2025-07-17",
+    "text": "In a founder interview, Neha Kapoor discussed growth, retention and competition. Press coverage was positive while noting competitive pressure."
+  },
+  {
+    "chunk_id": "startup_023_0_0",
+    "startup": "MarketMuse AI",
+    "source": "press_release",
+    "date": "2025-06-20",
+    "text": "MarketMuse AI announced a strategic update in its RetailTech market. Several customers reported reliability problems and delayed support."
+  },
+  {
+    "chunk_id": "startup_023_1_0",
+    "startup": "MarketMuse AI",
+    "source": "customer_review",
+    "date": "2025-06-28",
+    "text": "A customer review of MarketMuse AI said: A market review raised concerns about pricing and weak differentiation."
+  },
+  {
+    "chunk_id": "startup_023_2_0",
+    "startup": "MarketMuse AI",
+    "source": "founder_interview",
+    "date": "2025-07-20",
+    "text": "In a founder interview, Rohan Patel discussed growth, retention and competition. The company faces intense competition and uncertain retention."
+  },
+  {
+    "chunk_id": "startup_024_0_0",
+    "startup": "AutoRoute",
+    "source": "press_release",
+    "date": "2025-06-27",
+    "text": "AutoRoute announced a strategic update in its HealthTech market. Customers praised the product reliability and measurable time savings."
+  },
+  {
+    "chunk_id": "startup_024_1_0",
+    "startup": "AutoRoute",
+    "source": "customer_review",
+    "date": "2025-07-03",
+    "text": "A customer review of AutoRoute said: The company announced expansion into new enterprise markets."
+  },
+  {
+    "chunk_id": "startup_024_2_0",
+    "startup": "AutoRoute",
+    "source": "founder_interview",
+    "date": "2025-07-23",
+    "text": "In a founder interview, Aisha Khan discussed growth, retention and competition. The founder reported strong renewal rates and growing demand."
+  },
+  {
+    "chunk_id": "startup_025_0_0",
+    "startup": "GreenCart",
+    "source": "press_release",
+    "date": "2025-07-04",
+    "text": "GreenCart announced a strategic update in its FinTech market. Customers liked the product but several reported integration friction."
+  },
+  {
+    "chunk_id": "startup_025_1_0",
+    "startup": "GreenCart",
+    "source": "customer_review",
+    "date": "2025-07-08",
+    "text": "A customer review of GreenCart said: The company has strong demand although implementation can be complex."
+  },
+  {
+    "chunk_id": "startup_025_2_0",
+    "startup": "GreenCart",
+    "source": "founder_interview",
+    "date": "2025-07-26",
+    "text": "In a founder interview, Kabir Joshi discussed growth, retention and competition. Press coverage was positive while noting competitive pressure."
+  },
+  {
+    "chunk_id": "startup_026_0_0",
+    "startup": "DataForge",
+    "source": "press_release",
+    "date": "2025-07-11",
+    "text": "DataForge announced a strategic update in its ClimateTech market. Several customers reported reliability problems and delayed support."
+  },
+  {
+    "chunk_id": "startup_026_1_0",
+    "startup": "DataForge",
+    "source": "customer_review",
+    "date": "2025-07-13",
+    "text": "A customer review of DataForge said: A market review raised concerns about pricing and weak differentiation."
+  },
+  {
+    "chunk_id": "startup_026_2_0",
+    "startup": "DataForge",
+    "source": "founder_interview",
+    "date": "2025-07-29",
+    "text": "In a founder interview, Maya Desai discussed growth, retention and competition. The company faces intense competition and uncertain retention."
+  },
+  {
+    "chunk_id": "startup_027_0_0",
+    "startup": "CareBridge",
+    "source": "press_release",
+    "date": "2025-07-18",
+    "text": "CareBridge announced a strategic update in its SaaS market. Customers praised the product reliability and measurable time savings."
+  },
+  {
+    "chunk_id": "startup_027_1_0",
+    "startup": "CareBridge",
+    "source": "customer_review",
+    "date": "2025-07-18",
+    "text": "A customer review of CareBridge said: The company announced expansion into new enterprise markets."
+  },
+  {
+    "chunk_id": "startup_027_2_0",
+    "startup": "CareBridge",
+    "source": "founder_interview",
+    "date": "2025-08-01",
+    "text": "In a founder interview, Vikram Rao discussed growth, retention and competition. The founder reported strong renewal rates and growing demand."
+  },
+  {
+    "chunk_id": "startup_028_0_0",
+    "startup": "PayStream",
+    "source": "press_release",
+    "date": "2025-07-25",
+    "text": "PayStream announced a strategic update in its Cybersecurity market. Customers liked the product but several reported integration friction."
+  },
+  {
+    "chunk_id": "startup_028_1_0",
+    "startup": "PayStream",
+    "source": "customer_review",
+    "date": "2025-07-23",
+    "text": "A customer review of PayStream said: The company has strong demand although implementation can be complex."
+  },
+  {
+    "chunk_id": "startup_028_2_0",
+    "startup": "PayStream",
+    "source": "founder_interview",
+    "date": "2025-08-04",
+    "text": "In a founder interview, Ananya Iyer discussed growth, retention and competition. Press coverage was positive while noting competitive pressure."
+  },
+  {
+    "chunk_id": "startup_029_0_0",
+    "startup": "VisionWorks",
+    "source": "press_release",
+    "date": "2025-08-01",
+    "text": "VisionWorks announced a strategic update in its RetailTech market. Several customers reported reliability problems and delayed support."
+  },
+  {
+    "chunk_id": "startup_029_1_0",
+    "startup": "VisionWorks",
+    "source": "customer_review",
+    "date": "2025-07-28",
+    "text": "A customer review of VisionWorks said: A market review raised concerns about pricing and weak differentiation."
+  },
+  {
+    "chunk_id": "startup_029_2_0",
+    "startup": "VisionWorks",
+    "source": "founder_interview",
+    "date": "2025-08-07",
+    "text": "In a founder interview, Dev Malhotra discussed growth, retention and competition. The company faces intense competition and uncertain retention."
+  }
+]
