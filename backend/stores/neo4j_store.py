@@ -1,16 +1,22 @@
 from neo4j import GraphDatabase
+
 from backend.config import NEO4J_URI, NEO4J_USERNAME, NEO4J_PASSWORD, NEO4J_DATABASE
 
 class Neo4jStore:
+
     def __init__(self):
         self.driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USERNAME, NEO4J_PASSWORD))
+
     def close(self):
         self.driver.close()
+
     def verify(self):
         self.driver.verify_connectivity()
+
     def clear(self):
         with self.driver.session(database=NEO4J_DATABASE) as s:
             s.run("MATCH (n) DETACH DELETE n")
+
     def insert_startups(self, startups):
         query = """
         MERGE (s:Startup {id:$id})
@@ -33,11 +39,13 @@ class Neo4jStore:
                 s.run(query, id=x["id"], name=x["name"], sector=x["sector"],
                       founders=x["founders"], investors=x["investors"],
                       competitors=x["competitors"], partners=x["partners"]).consume()
+
     def count_nodes_edges(self):
         with self.driver.session(database=NEO4J_DATABASE) as s:
             n = s.run("MATCH (x) RETURN count(x) AS c").single()["c"]
             e = s.run("MATCH ()-[r]->() RETURN count(r) AS c").single()["c"]
             return n, e
+
     def query_graph(self, name):
         q = """
         MATCH (s:Startup) WHERE toLower(s.name)=toLower($name)

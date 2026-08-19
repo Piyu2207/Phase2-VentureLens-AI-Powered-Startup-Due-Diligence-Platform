@@ -1,11 +1,12 @@
 import sys
 import json
+
 import html
 import textwrap
-from pathlib import Path
 
 import streamlit as st
 
+from pathlib import Path
 
 # ============================================================
 # HTML HELPER
@@ -55,69 +56,70 @@ render_html(
     <style>
 
     .block-container {
-    padding-top: 1.5rem;
-    padding-bottom: 3rem;
-    max-width: 1450px;
-    width: 100%;
-    box-sizing: border-box;
+        padding-top: 1.5rem;
+        padding-bottom: 3rem;
+        max-width: 1450px;
+        width: 100%;
+        box-sizing: border-box;
     }
 
     /* ================= HERO ================= */
 
     .hero {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 2.5rem 1.8rem 1.5rem 1.8rem;
-    border-radius: 20px;
-    background: linear-gradient(
-        135deg,
-        rgba(49,51,63,.98),
-        rgba(25,27,36,.98)
-    );
-    border: 1px solid rgba(255,255,255,.08);
-    margin-bottom: 1.4rem;
-    overflow: visible;
-}
+        width: 100%;
+        box-sizing: border-box;
+        padding: 2.5rem 1.8rem 1.5rem 1.8rem;
+        border-radius: 20px;
+        background: linear-gradient(
+            135deg,
+            rgba(49,51,63,.98),
+            rgba(25,27,36,.98)
+        );
+        border: 1px solid rgba(255,255,255,.08);
+        margin-bottom: 1.4rem;
+        overflow: visible;
+    }
 
-.hero-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2rem;
-    width: 100%;
-    flex-wrap: wrap;
-}
+    .hero-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+        width: 100%;
+        flex-wrap: wrap;
+    }
 
-.hero-row > div:first-child {
-    flex: 1 1 auto;
-    min-width: 0;
-}
+    .hero-row > div:first-child {
+        flex: 1 1 auto;
+        min-width: 0;
+    }
 
-.hero-title {
-    font-size: 2.3rem;
-    font-weight: 800;
-    line-height: 1.2;
-    white-space: normal;
-}
+    .hero-title {
+        font-size: 2.3rem;
+        font-weight: 800;
+        line-height: 1.2;
+        white-space: normal;
+    }
 
-.hero-subtitle {
-    color: #aeb4c0;
-    margin-top: .35rem;
-    line-height: 1.4;
-    white-space: normal;
-}
+    .hero-subtitle {
+        color: #aeb4c0;
+        margin-top: .35rem;
+        line-height: 1.4;
+        white-space: normal;
+    }
 
-.status-pill {
-    flex: 0 0 auto;
-    padding: .4rem .85rem;
-    border-radius: 999px;
-    font-size: .75rem;
-    font-weight: 700;
-    color: #65e6a0;
-    background: rgba(46,204,113,.12);
-    border: 1px solid rgba(46,204,113,.25);
-    white-space: nowrap;
-}
+    .status-pill {
+        flex: 0 0 auto;
+        padding: .4rem .85rem;
+        border-radius: 999px;
+        font-size: .75rem;
+        font-weight: 700;
+        color: #65e6a0;
+        background: rgba(46,204,113,.12);
+        border: 1px solid rgba(46,204,113,.25);
+        white-space: nowrap;
+    }
+
 
     /* ================= SECTION ================= */
 
@@ -133,6 +135,7 @@ render_html(
         margin-bottom: .8rem;
     }
 
+
     /* ================= QUESTION ================= */
 
     .info-card {
@@ -141,6 +144,8 @@ render_html(
         background: rgba(255,255,255,.035);
         border: 1px solid rgba(255,255,255,.08);
         min-height: 88px;
+        box-sizing: border-box;
+        overflow-wrap: anywhere;
     }
 
     .label {
@@ -154,12 +159,15 @@ render_html(
     .value {
         font-size: 1.05rem;
         line-height: 1.45;
+        overflow-wrap: anywhere;
     }
 
     .startup-name {
         font-size: 1.25rem;
         font-weight: 750;
+        overflow-wrap: anywhere;
     }
+
 
     /* ================= VERDICT ================= */
 
@@ -169,6 +177,8 @@ render_html(
         background: rgba(255,255,255,.035);
         border: 1px solid rgba(255,255,255,.09);
         margin-bottom: 1rem;
+        box-sizing: border-box;
+        overflow: hidden;
     }
 
     .verdict-label {
@@ -203,7 +213,9 @@ render_html(
         border-radius: 8px;
         background: rgba(124,131,253,.07);
         line-height: 1.6;
+        overflow-wrap: anywhere;
     }
+
 
     /* ================= ENGINE ================= */
 
@@ -235,6 +247,7 @@ render_html(
         font-weight: 700;
     }
 
+
     /* ================= EVIDENCE ================= */
 
     .evidence-card {
@@ -243,6 +256,8 @@ render_html(
         background: rgba(255,255,255,.035);
         border: 1px solid rgba(255,255,255,.07);
         margin-bottom: .65rem;
+        box-sizing: border-box;
+        overflow-wrap: anywhere;
     }
 
     .evidence-header {
@@ -250,6 +265,7 @@ render_html(
         justify-content: space-between;
         gap: 1rem;
         margin-bottom: .5rem;
+        flex-wrap: wrap;
     }
 
     .evidence-title {
@@ -259,13 +275,18 @@ render_html(
     .evidence-meta {
         color: #8f96a3;
         font-size: .72rem;
+        overflow-wrap: anywhere;
     }
 
     .evidence-text {
         color: #d5d8de;
         line-height: 1.5;
         font-size: .9rem;
+        overflow-wrap: anywhere;
     }
+
+
+    /* ================= SQL ================= */
 
     .sql-result-card {
         padding: 1rem;
@@ -273,18 +294,39 @@ render_html(
         background: rgba(255,255,255,.035);
         border: 1px solid rgba(255,255,255,.07);
         margin-bottom: .7rem;
+        min-height: 78px;
+        box-sizing: border-box;
+        overflow: hidden;
     }
 
     .sql-value {
-        font-size: 1.15rem;
+        font-size: 1.05rem;
         font-weight: 700;
+        line-height: 1.35;
+        overflow-wrap: anywhere;
+        word-break: break-word;
     }
 
     .sql-label {
         color: #8f96a3;
         font-size: .72rem;
-        margin-top: .2rem;
+        margin-top: .3rem;
+        overflow-wrap: anywhere;
     }
+
+    .sql-query {
+        padding: 1rem;
+        border-radius: 14px;
+        background: rgba(0,0,0,.22);
+        border: 1px solid rgba(255,255,255,.07);
+        font-family: monospace;
+        font-size: .82rem;
+        line-height: 1.5;
+        white-space: pre-wrap;
+        overflow-wrap: anywhere;
+        word-break: break-word;
+    }
+
 
     /* ================= PIPELINE ================= */
 
@@ -293,12 +335,14 @@ render_html(
         border-radius: 16px;
         background: rgba(255,255,255,.025);
         border: 1px solid rgba(255,255,255,.07);
+        overflow-x: auto;
     }
 
     .pipeline-row {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        min-width: 850px;
     }
 
     .pipeline-step {
@@ -323,7 +367,9 @@ render_html(
 
     .arrow {
         color: #666d79;
+        padding: 0 .25rem;
     }
+
 
     /* ================= SIDEBAR ================= */
 
@@ -341,6 +387,7 @@ render_html(
         font-size: .78rem;
     }
 
+
     /* ================= FOOTER ================= */
 
     .footer {
@@ -348,6 +395,7 @@ render_html(
         color: #777f8c;
         font-size: .75rem;
         padding-top: 2rem;
+        padding-bottom: 1rem;
     }
 
     </style>
@@ -563,7 +611,7 @@ if run:
 
 
     # ========================================================
-    # EXISTING REPORT FIELDS
+    # REPORT FIELDS
     # ========================================================
 
     verdict = str(
@@ -680,7 +728,7 @@ if run:
 
 
     # ========================================================
-    # RETRIEVAL
+    # MULTI-SOURCE EVIDENCE
     # ========================================================
 
     render_html(
@@ -728,45 +776,105 @@ if run:
 
                 for row in rows:
 
-                    cols = st.columns(
-                        max(1, len(row))
-                    )
+                    priority = [
+                        "name",
+                        "sector",
+                        "revenue_musd",
+                        "revenue_growth_pct",
+                        "total_funding_musd",
+                        "valuation_musd",
+                        "burn_rate_musd",
+                        "runway_months",
+                        "employees",
+                        "gross_margin_pct",
+                        "customer_count",
+                        "founded_year",
+                        "id",
+                    ]
 
-                    for col, (key, value) in zip(
-                        cols,
-                        row.items(),
+                    ordered_items = []
+
+                    # Preserve the desired order.
+                    for key in priority:
+
+                        if key in row:
+
+                            ordered_items.append(
+                                (key, row[key])
+                            )
+
+                    # Add any unexpected fields.
+                    for key, value in row.items():
+
+                        if key not in priority:
+
+                            ordered_items.append(
+                                (key, value)
+                            )
+
+                    # Render exactly four cards per row.
+                    for start in range(
+                        0,
+                        len(ordered_items),
+                        4,
                     ):
 
-                        with col:
+                        chunk = ordered_items[
+                            start:start + 4
+                        ]
 
-                            render_html(
-                                f"""
-                                <div class="sql-result-card">
+                        cols = st.columns(4)
 
-                                    <div class="sql-value">
-                                        {html.escape(str(value))}
+                        for col, (key, value) in zip(
+                            cols,
+                            chunk,
+                        ):
+
+                            with col:
+
+                                render_html(
+                                    f"""
+                                    <div class="sql-result-card">
+
+                                        <div class="sql-label">
+                                            {html.escape(
+                                                str(key)
+                                            )}
+                                        </div>
+
+                                        <div class="sql-value">
+                                            {html.escape(
+                                                str(value)
+                                            )}
+                                        </div>
+
                                     </div>
+                                    """
+                                )
 
-                                    <div class="sql-label">
-                                        {html.escape(str(key))}
-                                    </div>
+            else:
 
-                                </div>
-                                """
-                            )
+                st.info(
+                    "SQLite returned no matching records."
+                )
+
+            # ------------------------------------------------
+            # GENERATED SQL
+            # ------------------------------------------------
 
             st.caption("Generated SQL")
 
+            sql_text = str(
+                raw.get(
+                    "sql",
+                    "Not available",
+                )
+            )
+
             render_html(
                 f"""
-                <div class="info-card">
-
-                    <div class="value">
-                        {html.escape(
-                            str(raw.get("sql", "Not available"))
-                        )}
-                    </div>
-
+                <div class="sql-query">
+                    {html.escape(sql_text)}
                 </div>
                 """
             )
@@ -774,7 +882,8 @@ if run:
         else:
 
             st.error(
-                f"SQLite unavailable: {sql_result.error}"
+                f"SQLite unavailable: "
+                f"{sql_result.error or 'Unknown SQL error'}"
             )
 
 
@@ -809,6 +918,7 @@ if run:
                 if line.startswith("Evidence "):
 
                     if current:
+
                         evidence.append(current)
 
                     current = {
@@ -818,9 +928,12 @@ if run:
 
                 elif current and line.strip():
 
-                    current["text"] += line + " "
+                    current["text"] += (
+                        line + " "
+                    )
 
             if current:
+
                 evidence.append(current)
 
 
@@ -830,6 +943,17 @@ if run:
 
                     header = item["header"]
 
+                    header_parts = header.split("|")
+
+                    evidence_title = (
+                        header_parts[0].strip()
+                    )
+
+                    evidence_meta = " | ".join(
+                        x.strip()
+                        for x in header_parts[1:]
+                    )
+
                     render_html(
                         f"""
                         <div class="evidence-card">
@@ -837,24 +961,29 @@ if run:
                             <div class="evidence-header">
 
                                 <div class="evidence-title">
-                                    🔎 {html.escape(header.split("|")[0])}
+                                    🔎 {
+                                        html.escape(
+                                            evidence_title
+                                        )
+                                    }
                                 </div>
 
                                 <div class="evidence-meta">
-                                    {html.escape(
-                                        " | ".join(
-                                            x.strip()
-                                            for x in header.split("|")[1:]
+                                    {
+                                        html.escape(
+                                            evidence_meta
                                         )
-                                    )}
+                                    }
                                 </div>
 
                             </div>
 
                             <div class="evidence-text">
-                                {html.escape(
-                                    item["text"].strip()
-                                )}
+                                {
+                                    html.escape(
+                                        item["text"].strip()
+                                    )
+                                }
                             </div>
 
                         </div>
@@ -871,7 +1000,8 @@ if run:
         else:
 
             st.error(
-                f"FAISS unavailable: {faiss_result.error}"
+                f"FAISS unavailable: "
+                f"{faiss_result.error or 'Unknown retrieval error'}"
             )
 
 
@@ -917,7 +1047,11 @@ if run:
                         <div class="evidence-card">
 
                             <div class="evidence-text">
-                                🔗 {html.escape(relationship)}
+                                🔗 {
+                                    html.escape(
+                                        relationship
+                                    )
+                                }
                             </div>
 
                         </div>
@@ -934,7 +1068,8 @@ if run:
         else:
 
             st.error(
-                f"Neo4j unavailable: {graph_result.error}"
+                f"Neo4j unavailable: "
+                f"{graph_result.error or 'Unknown graph error'}"
             )
 
 
@@ -978,7 +1113,7 @@ if run:
 
 
     # ========================================================
-    # SYNTHESIS
+    # AI SYNTHESIS
     # ========================================================
 
     render_html(
@@ -1023,71 +1158,139 @@ if run:
             <div class="pipeline-row">
 
                 <div class="pipeline-step">
-                    <div class="pipeline-icon">📝</div>
-                    <div class="pipeline-name">Question</div>
+
+                    <div class="pipeline-icon">
+                        📝
+                    </div>
+
+                    <div class="pipeline-name">
+                        Question
+                    </div>
+
                     <div class="pipeline-sub">
                         Investor query
                     </div>
+
                 </div>
 
-                <div class="arrow">→</div>
+                <div class="arrow">
+                    →
+                </div>
 
                 <div class="pipeline-step">
-                    <div class="pipeline-icon">⚡</div>
-                    <div class="pipeline-name">Parallel</div>
+
+                    <div class="pipeline-icon">
+                        ⚡
+                    </div>
+
+                    <div class="pipeline-name">
+                        Parallel
+                    </div>
+
                     <div class="pipeline-sub">
                         Retrieval
                     </div>
+
                 </div>
 
-                <div class="arrow">→</div>
+                <div class="arrow">
+                    →
+                </div>
 
                 <div class="pipeline-step">
-                    <div class="pipeline-icon">🗄️</div>
-                    <div class="pipeline-name">SQLite</div>
+
+                    <div class="pipeline-icon">
+                        🗄️
+                    </div>
+
+                    <div class="pipeline-name">
+                        SQLite
+                    </div>
+
                     <div class="pipeline-sub">
                         Financial
                     </div>
+
                 </div>
 
-                <div class="arrow">+</div>
+                <div class="arrow">
+                    +
+                </div>
 
                 <div class="pipeline-step">
-                    <div class="pipeline-icon">🔎</div>
-                    <div class="pipeline-name">FAISS</div>
+
+                    <div class="pipeline-icon">
+                        🔎
+                    </div>
+
+                    <div class="pipeline-name">
+                        FAISS
+                    </div>
+
                     <div class="pipeline-sub">
                         Hybrid
                     </div>
+
                 </div>
 
-                <div class="arrow">+</div>
+                <div class="arrow">
+                    +
+                </div>
 
                 <div class="pipeline-step">
-                    <div class="pipeline-icon">🕸️</div>
-                    <div class="pipeline-name">Neo4j</div>
+
+                    <div class="pipeline-icon">
+                        🕸️
+                    </div>
+
+                    <div class="pipeline-name">
+                        Neo4j
+                    </div>
+
                     <div class="pipeline-sub">
                         Graph
                     </div>
+
                 </div>
 
-                <div class="arrow">→</div>
+                <div class="arrow">
+                    →
+                </div>
 
                 <div class="pipeline-step">
-                    <div class="pipeline-icon">🧠</div>
-                    <div class="pipeline-name">DSPy</div>
+
+                    <div class="pipeline-icon">
+                        🧠
+                    </div>
+
+                    <div class="pipeline-name">
+                        DSPy
+                    </div>
+
                     <div class="pipeline-sub">
                         Synthesis
                     </div>
+
                 </div>
 
-                <div class="arrow">→</div>
+                <div class="arrow">
+                    →
+                </div>
 
                 <div class="pipeline-step">
-                    <div class="pipeline-icon">🎯</div>
-                    <div class="pipeline-name">Verdict</div>
+
+                    <div class="pipeline-icon">
+                        🎯
+                    </div>
+
+                    <div class="pipeline-name">
+                        Verdict
+                    </div>
+
                     <div class="pipeline-sub">
                         Decision
                     </div>
+
                 </div>
 
             </div>
@@ -1111,11 +1314,11 @@ if run:
             )
 
 
-else:
+# ============================================================
+# EMPTY STATE
+# ============================================================
 
-    # ========================================================
-    # EMPTY STATE
-    # ========================================================
+else:
 
     render_html(
         """

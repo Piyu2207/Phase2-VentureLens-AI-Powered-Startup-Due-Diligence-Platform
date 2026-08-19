@@ -6,7 +6,6 @@ from backend.config import (
     STUDENT_MODEL,
 )
 
-
 def configure_student():
     """
     Create the student LM.

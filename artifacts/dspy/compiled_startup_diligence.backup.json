@@ -1,0 +1,79 @@
+{
+  "synthesize.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "sql_context": "[SQL CONTEXT] Revenue: 20 crore; Growth: -10%",
+        "faiss_context": "[FAISS HYBRID CONTEXT] Customer growth is slowing and competition is increasing.",
+        "graph_context": "[GRAPH CONTEXT] Limited investor relationships; multiple competitors identified.",
+        "verdict": "PASS",
+        "confidence": 65,
+        "financial_risk": "HIGH",
+        "market_risk": "HIGH",
+        "network_strength": "MEDIUM",
+        "reasoning": "Declining revenue growth, competitive pressure, and higher financial risk support a cautious decision."
+      },
+      {
+        "sql_context": "[SQL CONTEXT] Revenue: 100 crore; Growth: 35%",
+        "faiss_context": "[FAISS HYBRID CONTEXT] Market expansion and strong customer adoption reported.",
+        "graph_context": "[GRAPH CONTEXT] Founder: Alice; Investor: ABC Ventures; Competitor: XYZ Corp",
+        "verdict": "INVEST",
+        "confidence": 85,
+        "financial_risk": "LOW",
+        "market_risk": "LOW",
+        "network_strength": "HIGH",
+        "reasoning": "Strong revenue growth, positive market evidence, and strong investor and founder relationships support investment."
+      }
+    ],
+    "signature": {
+      "instructions": "Synthesize an investment verdict ONLY from the supplied SQL, text and graph evidence.\nDo not invent facts. Return exactly the allowed categorical values.",
+      "fields": [
+        {
+          "prefix": "Sql Context:",
+          "description": "Structured financial/funding facts from SQLite."
+        },
+        {
+          "prefix": "Faiss Context:",
+          "description": "News/press/customer evidence from BM25+dense+RRF."
+        },
+        {
+          "prefix": "Graph Context:",
+          "description": "Founder/investor/competitor/partner relationships from Neo4j."
+        },
+        {
+          "prefix": "Reasoning:",
+          "description": "Concise evidence-based reasoning."
+        },
+        {
+          "prefix": "Verdict:",
+          "description": "Exactly INVEST or PASS."
+        },
+        {
+          "prefix": "Confidence:",
+          "description": "Integer 0 to 100."
+        },
+        {
+          "prefix": "Financial Risk:",
+          "description": "Exactly LOW, MEDIUM or HIGH."
+        },
+        {
+          "prefix": "Market Risk:",
+          "description": "Exactly LOW, MEDIUM or HIGH."
+        },
+        {
+          "prefix": "Network Strength:",
+          "description": "Exactly LOW, MEDIUM or HIGH."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.13",
+      "dspy": "3.3.0",
+      "cloudpickle": "3.1"
+    }
+  }
+}

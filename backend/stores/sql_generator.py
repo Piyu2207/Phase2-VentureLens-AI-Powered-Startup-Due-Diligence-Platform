@@ -2,7 +2,6 @@ import dspy
 
 from backend.config import GEMINI_API_KEY, STUDENT_MODEL
 
-
 DATABASE_SCHEMA = """
 SQLite database: startups
 
@@ -31,7 +30,6 @@ Important mappings:
 - burn rate -> burn_rate_musd
 - runway -> runway_months
 """
-
 
 class TextToSQLSignature(dspy.Signature):
     """
@@ -120,7 +118,7 @@ def generate_sql(question: str) -> str:
     lm = dspy.LM(
         STUDENT_MODEL,
         api_key=GEMINI_API_KEY,
-        max_tokens=500,
+        max_tokens=1000,
         cache=True,
     )
 

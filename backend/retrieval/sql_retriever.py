@@ -7,6 +7,7 @@ from backend.stores.sql_validator import validate_sql
 
 
 def query_sql(question):
+    
     """
     Text-to-SQL retrieval engine.
 

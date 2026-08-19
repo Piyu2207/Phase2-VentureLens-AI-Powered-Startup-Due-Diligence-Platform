@@ -1,0 +1,30 @@
+{
+  "held_out_entity": "VisionWorks",
+  "question": "Should an investor invest in VisionWorks?",
+  "compiled_state_exists": true,
+  "compiled_state_path": "D:\\Agentic-AI-Projects\\Phase2-VentureLens-AI-Powered-Startup-Due-Diligence-Platform\\artifacts\\dspy\\compiled_startup_diligence.json",
+  "parallel_latency_ms": 23366.83,
+  "retrieval_elapsed_ms": 23366.97,
+  "retrieval_ok": {
+    "sql": true,
+    "faiss": true,
+    "graph": true
+  },
+  "retrieval_context_nonempty": {
+    "sql": true,
+    "faiss": true,
+    "graph": true
+  },
+  "mode": "dspy",
+  "synthesis_latency_ms": 7556.82,
+  "prediction": {
+    "verdict": "PASS",
+    "confidence": 80,
+    "financial_risk": "HIGH",
+    "market_risk": "HIGH",
+    "network_strength": "HIGH",
+    "reasoning": "VisionWorks presents significant financial and market risks that outweigh its strong investor network. The company faces an impending liquidity crunch with only 6 months of runway left ($0.3M/month burn rate) alongside a stretched valuation ($82.55M against $5.4M revenue with modest 19% growth). Market evidence indicates operational and product execution challenges, including customer reliability issues, support delays, and weak product differentiation in a competitive RetailTech landscape. Despite backing from top investors (Accel, Matrix Ventures), the immediate liquidity deficit and customer satisfaction issues warrant a PASS."
+  },
+  "prediction_valid": true,
+  "judge_bad_output_rejected": true
+}

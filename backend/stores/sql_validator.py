@@ -1,5 +1,7 @@
 import re
+import sqlite3
 
+from backend.config import SQLITE_PATH
 
 
 ALLOWED_TABLE = "startups"
@@ -194,5 +196,20 @@ def validate_sql(sql: str) -> tuple[bool, str]:
                 f"Unknown column or identifier: "
                 f"{identifier}"
             )
+
+    # --------------------------------------------------
+    # Validate against the actual SQLite schema
+    # --------------------------------------------------
+
+    try:
+        conn = sqlite3.connect(SQLITE_PATH)
+
+        try:
+            conn.execute(f"EXPLAIN QUERY PLAN {cleaned}")
+        finally:
+            conn.close()
+
+    except sqlite3.Error as exc:
+        return False, f"SQLite validation failed: {exc}"
 
     return True, ""
