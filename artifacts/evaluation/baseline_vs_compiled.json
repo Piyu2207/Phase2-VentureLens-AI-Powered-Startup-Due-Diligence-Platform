@@ -3,8 +3,8 @@
   "question": "Should an investor invest in VisionWorks?",
   "compiled_state_exists": true,
   "compiled_state_path": "D:\\Agentic-AI-Projects\\Phase2-VentureLens-AI-Powered-Startup-Due-Diligence-Platform\\artifacts\\dspy\\compiled_startup_diligence.json",
-  "parallel_latency_ms": 23366.83,
-  "retrieval_elapsed_ms": 23366.97,
+  "parallel_latency_ms": 26954.33,
+  "retrieval_elapsed_ms": 26954.79,
   "retrieval_ok": {
     "sql": true,
     "faiss": true,
@@ -16,7 +16,7 @@
     "graph": true
   },
   "mode": "dspy",
-  "synthesis_latency_ms": 7556.82,
+  "synthesis_latency_ms": 56.63,
   "prediction": {
     "verdict": "PASS",
     "confidence": 80,
