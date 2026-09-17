@@ -13,45 +13,39 @@ The project follows the Phase 2 requirement to build a parallel structured + sem
 ## Architecture
 
 ```text
-                         ┌─────────────────────┐
-                         │   Streamlit UI      │
-                         │  Select Startup +   │
-                         │  Run Due Diligence  │
+                                              ┌─────────────────────┐
+                         │    Streamlit UI     │
+                         │ Select Startup +    │
+                         │ Due-Diligence Query │
                          └──────────┬──────────┘
                                     │
                                     ▼
-                    ┌───────────────────────────┐
-                    │ Parallel Retrieval Layer  │
-                    │     ThreadPoolExecutor    │
-                    └───────┬───────┬───────────┘
-                            │       │
-              ┌─────────────┘       └─────────────┐
-              ▼                                   ▼
-       ┌─────────────┐                     ┌─────────────┐
-       │   SQLite    │                     │    FAISS    │
-       │ Structured  │                     │ + BM25      │
-       │ Financials  │                     │ News/Press  │
-       └──────┬──────┘                     └──────┬──────┘
-              │                                   │
-              │              ┌─────────────┐      │
-              └─────────────►│   Neo4j     │◄─────┘
-                             │ Graph Data  │
-                             │ Relations   │
-                             └──────┬──────┘
-                                    │
-                                    ▼
-                         ┌─────────────────────┐
-                         │    DSPy Module      │
-                         │ ChainOfThought +    │
-                         │ Optimized Synthesis  │
-                         └──────────┬──────────┘
-                                    │
-                                    ▼
-                         ┌─────────────────────┐
-                         │ Structured Verdict  │
-                         │ INVEST / PASS       │
-                         │ + Evidence          │
-                         └─────────────────────┘
+                  ┌──────────────────────────────┐
+                  │   Parallel Retrieval Layer   │
+                  │      ThreadPoolExecutor      │
+                  └───────┬────────┬────────┬─────┘
+                          │        │        │
+             ┌────────────┘        │        └────────────┐
+             ▼                     ▼                     ▼
+      ┌─────────────┐      ┌─────────────┐       ┌─────────────┐
+      │   SQLite    │      │ FAISS+BM25  │       │    Neo4j    │
+      │ Structured  │      │ Text / News │       │ Relations   │
+      │ Financials  │      │ Retrieval   │       │ Graph Data  │
+      └──────┬──────┘      └──────┬──────┘       └──────┬──────┘
+             │                    │                     │
+             └────────────────────┼─────────────────────┘
+                                  ▼
+                       ┌─────────────────────┐
+                       │    DSPy Pipeline    │
+                       │ Evidence Synthesis  │
+                       │ + ChainOfThought     │
+                       └──────────┬──────────┘
+                                  │
+                                  ▼
+                       ┌─────────────────────┐
+                       │ Structured Output   │
+                       │ Verdict + Evidence  │
+                       └─────────────────────┘
 ```
 
 ## Project Goals
